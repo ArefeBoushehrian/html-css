@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "B Kamran";
+}
+
+#topnav {
+  background-color: #FD062F;
+  overflow: hidden;
+}
+
+#topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#topnav a:hover {
+  background-color: #F50062;
+  color: black;
+}
+
+
+#topnav .icon {
+  display: none;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgba(253,6,47,0.7);
+   color: white;
+   text-align: center;
+}
+
+#text {
+	font-size: 100;
+	direction: rtl;
+	z-index: 10;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#img1{
+	width: 8%;
+	height: auto;
+}
+
+#text 1{
+	font-size: 100;
+	direction: rtl;
+	z-index: 10;
+	background-color: #F50062;
+	font_weight: bold;
+	margin-left: 20px;
+	margin-right: 20px;
+}
